@@ -31,12 +31,12 @@ kubernetes-sig开发了Nginx Ingress控制器，只能代理HTTP流量。而Isti
 本实验将使用httpbin负载做为后端，httpbin是一个使用python开发的应用程序，基本上将http涵盖了所有的http的操作。如获取响应请求头：
 
 ```bash
-# curl 10.233.27.244:8080/headers -Hhost:zackzhangkai.github.io
+# curl 10.233.27.244:8080/headers -Hhost:zack6116.github.io
 {
   "headers": {
     "Accept": "*/*",
     "Content-Length": "0",
-    "Host": "zackzhangkai.github.io",
+    "Host": "zack6116.github.io",
     "User-Agent": "curl/7.29.0",
     "X-B3-Sampled": "0",
     "X-B3-Spanid": "bf0275d010c038fb",
@@ -92,7 +92,7 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "zackzhangkai.github.io"
+    - "zack6116.github.io"
 EOF
 ```
 
@@ -111,7 +111,7 @@ metadata:
   namespace: test-gateway
 spec:
   hosts:
-  - "zackzhangkai.github.io"
+  - "zack6116.github.io"
   gateways:
   - httpbin-gateway
   http:
@@ -139,7 +139,7 @@ istio-ingressgateway        NodePort    10.233.39.106   <none>        15021:3164
 访问：
 
 ```bash
-curl -I  http://192.168.0.13:30084/status/200 -H 'Host: zackzhangkai.github.io'
+curl -I  http://192.168.0.13:30084/status/200 -H 'Host: zack6116.github.io'
 HTTP/1.1 200 OK
 server: istio-envoy
 date: Mon, 08 Feb 2021 08:14:49 GMT
@@ -192,7 +192,7 @@ spec:
       name: http
       protocol: HTTP
     hosts:
-    - "zackzhangkai.github.io"
+    - "zack6116.github.io"
     tls:
       # 把http://xxx.com 转成 https://xxx.com
       httpsRedirect: true # sends 301 redirect for http requests
@@ -201,7 +201,7 @@ spec:
       name: https-443
       protocol: HTTPS
     hosts:
-    - "zackzhangkai.github.io"
+    - "zack6116.github.io"
     tls:
       mode: SIMPLE # enables HTTPS on this port
       serverCertificate: /etc/certs/servercert.pem
@@ -263,7 +263,7 @@ metadata:
   namespace: test-gateway
 spec:
   hosts:
-  - "zackzhangkai.github.io"
+  - "zack6116.github.io"
   gateways:
   # 需要在virtualservice中绑定Gateway
   - test-gateway/httpbin-gateway
@@ -347,7 +347,7 @@ metadata:
   namespace: test-gateway
 spec:
   rules:
-  - host: zackzhangkai.github.io
+  - host: zack6116.github.io
     http:
       paths:
       - path: /status/*  # 匹配HTTP PATH
@@ -368,7 +368,7 @@ transfer-encoding: chunked
 
 
 加上Host，Ingress规则生效
-[root@ssa3 ~]# curl -I  http://192.168.0.13:30084/status/200 -Hhost:zackzhangkai.github.io
+[root@ssa3 ~]# curl -I  http://192.168.0.13:30084/status/200 -Hhost:zack6116.github.io
 HTTP/1.1 200 OK
 server: istio-envoy
 date: Mon, 08 Feb 2021 09:45:01 GMT

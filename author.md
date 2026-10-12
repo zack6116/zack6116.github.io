@@ -11,7 +11,7 @@ permalink: /author/
 ----------
 
 
-我是一名普通程序员，擅长微服务，从事服务网格开发，是一名忠实的Kubernetes及Istio粉丝，热衷开源及云原生。你可以在我的[GitHub](https://github.com/zackzhangkai)上找到我参与的开源项目。当碰到某一个值得分享的技术时，喜欢记录在[博客](https://zackzhangkai.github.io)，时而也会在[B站](https://space.bilibili.com/419182363)分享技术视频。
+我是一名普通程序员，擅长微服务，从事服务网格开发，是一名忠实的Kubernetes及Istio粉丝，热衷开源及云原生。你可以在我的[GitHub](https://github.com/zackzhangkai)上找到我参与的开源项目。当碰到某一个值得分享的技术时，喜欢记录在[博客](https://zack6116.github.io)，时而也会在[B站](https://space.bilibili.com/419182363)分享技术视频。
 
 # 最近最开心的一件事
 
@@ -108,7 +108,7 @@ permalink: /author/
 
 # 关于博客
 
-类似于周刊总结每周值得分享的好的文章及资源，我会将所有的值得分享、有价值的文章链接以日期的形式放在[札记](https://zackzhangkai.github.io/note/)里，方便检索及浏览。感兴趣的朋友，可以关注。
+类似于周刊总结每周值得分享的好的文章及资源，我会将所有的值得分享、有价值的文章链接以日期的形式放在[札记](https://zack6116.github.io/note/)里，方便检索及浏览。感兴趣的朋友，可以关注。
 
 由于从事编程工作，因此需要锻炼，我把自己的[跑步数据](https://running-page-puce.vercel.app/)同样分享出来，希望数据能激励我一直跑下去。
 
@@ -131,6 +131,6 @@ permalink: /author/
 后从事云计算开发方向，聚焦云原生，Devops，Kubernetes，istio服务网格。
 
 如果对我有兴趣可以邮件沟通[zhangkaiamm@gmail.com](mailto:zhangkaiamm@gmail.com)，可以关注我的
-[GitHub]({{site.github}})，或是[订阅](https://zackzhangkai.github.io/feed.xml)我的文章，会写一些自己的技术积累。
+[GitHub]({{site.github}})，或是[订阅](https://zack6116.github.io/feed.xml)我的文章，会写一些自己的技术积累。
 
 人海茫茫，白驹过隙，没有必要遮遮掩掩。不断突破，不断提升，日新月异。
