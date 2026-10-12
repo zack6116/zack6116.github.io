@@ -72,13 +72,13 @@ POSTED_OK: false
 我把判定改成查搜索页，不再读主页：
 
 ```
-https://x.com/search?q=<正文前几个字> from:kaiz_amm&f=live
+https://x.com/search?q=<正文前几个字> from:zack6116&f=live
 ```
 
 三个参数说一下：
 
 - `q` 放正文开头那几个字，别放全句，标点一多就搜不到
-- `from:kaiz_amm` 限定账号，不然会搜出别人的同名内容
+- `from:zack6116` 限定账号，不然会搜出别人的同名内容
 - `f=live` 是按时间排，默认那个排序会把你要找的推到后面去
 
 搜索页比主页稳的原因很土：**它返回的是数据，不是页面上那堆会变的 DOM。**

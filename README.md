@@ -1,6 +1,6 @@
 **<p align="center">[zack's Blog](https://zack6116.github.io)</p>**
 ## 联系方式
-- Twitter：[@kai_amm](https://twitter.com/kaiz_amm)
+- Twitter：[@zack6116](https://x.com/zack6116)
 - Email：[zhangkaiamm@google.com](mailto:zhangkaiamm@gmail.com)
 - Blog：[https://zack6116.github.io](https://zack6116.github.io)
 ## 置顶文章
