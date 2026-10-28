@@ -46,6 +46,7 @@ header: AI文档
             <li><a href="#translate-errors-and-legacy-code-with-ai">满屏报错看不懂？扔给AI一段14秒翻成人话</a></li>
             <li><a href="#project-briefing-txt-saves-repeated-context">AI改项目总从头介绍一遍？一个txt省掉</a></li>
             <li><a href="#one-task-per-turn-less-rework">AI一次改5件事，多出4个没要的</a></li>
+            <li><a href="#explain-it-back-before-accepting">AI写的代码跑通了先别收工，让它讲一遍</a></li>
            </ul>
         </div>
       </div>
@@ -325,6 +326,12 @@ header: AI文档
               <li><a href="https://zack6116.github.io/2026/10/27/timeline-first-then-analyze/" target="_blank">排查事故别让AI一口气读完，先要时间线，快一倍 →</a></li>
             </ul>
             <p><small>2026-10-27 | 25 行事故日志对照实测：一口气问 142 秒，时间线快但漏 5 处静默盲区；先要时间线（29 秒）再做分析（37 秒）共 66 秒，快 76 秒且盲区自己浮出来 · 附两段直接可抄的提示词模板和三步操作 · 翻记录的活交给 AI，下结论前你自己核一眼</small></p>
+            <hr>
+            <h2 id="explain-it-back-before-accepting">AI写的代码跑通了先别收工，让它讲一遍，5个坑自己浮出来</h2>
+            <ul>
+              <li><a href="https://zack6116.github.io/2026/10/28/explain-it-back-before-accepting/" target="_blank">AI写的代码跑通了先别收工，让它讲一遍，5个坑自己浮出来 →</a></li>
+            </ul>
+            <p><small>2026-10-28 | 图片整理脚本对照实测：AI 写完 40 秒一跑 exit 0 表面全对，追加一句「用大白话讲一遍+自查发虚段落」（48 秒）让它自己招了 5 个问题：死代码分支、无扩展名边界雷、重名跳过静默滞留（stdout 只有「完成」，文件永远躺原地）、mv 缺 -n、注释失实 · 附提示词模板和两个追命句 · 跑通和能用的差距，就这 48 秒</small></p>
             <hr>
             <p><em>使用 project-researcher skill 自动生成</em></p>
 
