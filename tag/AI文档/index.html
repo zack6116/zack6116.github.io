@@ -47,6 +47,7 @@ header: AI文档
             <li><a href="#project-briefing-txt-saves-repeated-context">AI改项目总从头介绍一遍？一个txt省掉</a></li>
             <li><a href="#one-task-per-turn-less-rework">AI一次改5件事，多出4个没要的</a></li>
             <li><a href="#explain-it-back-before-accepting">AI写的代码跑通了先别收工，让它讲一遍</a></li>
+            <li><a href="#minimal-example-beats-stale-docs">照着文档抄第一行就报错？38秒验真</a></li>
            </ul>
         </div>
       </div>
@@ -332,6 +333,12 @@ header: AI文档
               <li><a href="https://zack6116.github.io/2026/10/28/explain-it-back-before-accepting/" target="_blank">AI写的代码跑通了先别收工，让它讲一遍，5个坑自己浮出来 →</a></li>
             </ul>
             <p><small>2026-10-28 | 图片整理脚本对照实测：AI 写完 40 秒一跑 exit 0 表面全对，追加一句「用大白话讲一遍+自查发虚段落」（48 秒）让它自己招了 5 个问题：死代码分支、无扩展名边界雷、重名跳过静默滞留（stdout 只有「完成」，文件永远躺原地）、mv 缺 -n、注释失实 · 附提示词模板和两个追命句 · 跑通和能用的差距，就这 48 秒</small></p>
+            <hr>
+            <h2 id="minimal-example-beats-stale-docs">照着文档抄，第一行就报错？让AI写个最小例子，38秒验真</h2>
+            <ul>
+              <li><a href="https://zack6116.github.io/2026/11/02/minimal-example-beats-stale-docs/" target="_blank">照着文档抄，第一行就报错？让AI写个最小例子，38秒验真 →</a></li>
+            </ul>
+            <p><small>2026-11-02 | PyYAML 对照实测：老教程的 yaml.load(f) 第一跑就 TypeError 零结果；问 AI 要最小例子 38.8 秒出、0.08 秒跑通一次过（safe_load 直接选对），顺带逮住两个静默坑——version 3.10 被解析成 3.1、debug off 变布尔 False，连 AI 自己预测的输出都是错的 · 附可直接抄的提问句式 · 没用过的库，先让 AI 写十行例子直接跑，跑不通的文档再漂亮也不碰</small></p>
             <hr>
             <p><em>使用 project-researcher skill 自动生成</em></p>
 
