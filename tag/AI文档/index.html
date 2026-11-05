@@ -50,6 +50,7 @@ header: AI文档
             <li><a href="#minimal-example-beats-stale-docs">照着文档抄第一行就报错？38秒验真</a></li>
             <li><a href="#one-shot-spec-saves-54-percent">用AI改代码别挤牙膏，实测省54%</a></li>
             <li><a href="#script-the-third-repetition">干到第三遍的活就该写成脚本</a></li>
+            <li><a href="#negative-constraints-list">给AI提需求，加一条「不能怎样」清单</a></li>
            </ul>
         </div>
       </div>
@@ -353,6 +354,12 @@ header: AI文档
               <li><a href="https://zack6116.github.io/2026/11/04/script-the-third-repetition/" target="_blank">干到第三遍的活，就该让AI写成脚本：实测52秒变0.06秒 →</a></li>
             </ul>
             <p><small>2026-11-04 | 字数统计对照实测：口述需求 52.2 秒 AI 重干一遍，存成脚本后 python3 一条命令 0.056 秒出全，差 930 倍 · 附四步操作和直接可抄的存脚本提示词 · 两个坑实录：AI 会照目录里的文件猜需求、归档脚本把标记抄成带括号在真目录静默归档 0 个文件 · 会动文件的脚本先拿假目录试跑</small></p>
+            <hr>
+            <h2 id="negative-constraints-list">给AI提需求，加一条「不能怎样」清单：3轮超纲 vs 3轮守规矩</h2>
+            <ul>
+              <li><a href="https://zack6116.github.io/2026/11/05/negative-constraints-list/" target="_blank">给AI提需求，加一条「不能怎样」清单：3轮超纲 vs 3轮守规矩 →</a></li>
+            </ul>
+            <p><small>2026-11-05 | 同一需求各跑 3 轮对照实测：只说「要什么」平均 30.4 秒但 3 轮全超纲（加没要的表头底色、塞没要的 JS 切换按钮+localStorage），带 6 条「不能怎样」清单平均 28.0 秒且超纲零命中、config/tools 零改动 · 正向清单靠穷举、负向清单划边界，后者来自踩过的坑更省脑子 · 清单两来源：翻车攒一条、按项目性质固定 · 六到八条为宜</small></p>
             <hr>
             <p><em>使用 project-researcher skill 自动生成</em></p>
 
