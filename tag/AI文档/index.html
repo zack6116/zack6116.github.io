@@ -51,6 +51,7 @@ header: AI文档
             <li><a href="#one-shot-spec-saves-54-percent">用AI改代码别挤牙膏，实测省54%</a></li>
             <li><a href="#script-the-third-repetition">干到第三遍的活就该写成脚本</a></li>
             <li><a href="#negative-constraints-list">给AI提需求，加一条「不能怎样」清单</a></li>
+            <li><a href="#mvp-first-then-iterate">用AI做东西别一步到位，先跑通最小版</a></li>
            </ul>
         </div>
       </div>
@@ -360,6 +361,12 @@ header: AI文档
               <li><a href="https://zack6116.github.io/2026/11/05/negative-constraints-list/" target="_blank">给AI提需求，加一条「不能怎样」清单：3轮超纲 vs 3轮守规矩 →</a></li>
             </ul>
             <p><small>2026-11-05 | 同一需求各跑 3 轮对照实测：只说「要什么」平均 30.4 秒但 3 轮全超纲（加没要的表头底色、塞没要的 JS 切换按钮+localStorage），带 6 条「不能怎样」清单平均 28.0 秒且超纲零命中、config/tools 零改动 · 正向清单靠穷举、负向清单划边界，后者来自踩过的坑更省脑子 · 清单两来源：翻车攒一条、按项目性质固定 · 六到八条为宜</small></p>
+            <hr>
+            <h2 id="mvp-first-then-iterate">用AI做东西别一步到位：先跑通最小版，实测164秒翻车、111秒全对</h2>
+            <ul>
+              <li><a href="https://zack6116.github.io/2026/11/07/mvp-first-then-iterate/" target="_blank">用AI做东西别一步到位：先跑通最小版，实测164秒翻车、111秒全对 →</a></li>
+            </ul>
+            <p><small>2026-11-07 | 同一任务三组对照实测：模糊需求「功能做全一点」164 秒出 560 行但主场景翻车（卡面显示 undefined、提示死循环），需求写全 10 条一步到位 44 秒 246 行全对，最小版三步迭代共 111 秒只用 84 行全对 · 附可直接抄的三步提示词写法和负向约束句式 · 能跑的 5 行比跑不起来的 200 行值钱</small></p>
             <hr>
             <p><em>使用 project-researcher skill 自动生成</em></p>
 
