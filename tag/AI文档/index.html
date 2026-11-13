@@ -54,6 +54,7 @@ header: AI文档
             <li><a href="#mvp-first-then-iterate">用AI做东西别一步到位，先跑通最小版</a></li>
             <li><a href="#verify-anchors-in-prompt">AI干活说完成了别急着信，验收卡点写进提示词</a></li>
             <li><a href="#registry-one-table-one-rule">项目副本到处都是？一张注册表134秒变0.006秒</a></li>
+            <li><a href="#realtime-data-local-tool">问AI要实时股价它给了旧价？本地脚本11秒拉到真价</a></li>
            </ul>
         </div>
       </div>
@@ -381,6 +382,12 @@ header: AI文档
               <li><a href="https://zack6116.github.io/2026/11/09/registry-one-table-one-rule/" target="_blank">AI工具开多了项目副本到处都是？一张注册表找目录134秒变0.006秒 →</a></li>
             </ul>
             <p><small>2026-11-09 | 真实副本对照：同一项目两份副本差 3 个 commit、README 少一整节自动部署，全盘 find 找目录 134 秒，grep 注册表 0.006 秒；裸开 claude 问部署方式 31.8 秒答对靠的是开局先读表 · 附扫描脚本、Claude Code/Codex/Cursor 三家接入配置和裁决记录写法 · 表管「在哪」，裁决单独记「以谁为准」且理由必须写上</small></p>
+            <hr>
+            <h2 id="realtime-data-local-tool">问AI要实时股价它给了旧价？配个本地脚本11秒拉到真价</h2>
+            <ul>
+              <li><a href="https://zack6116.github.io/2026/11/13/realtime-data-local-tool/" target="_blank">问AI要实时股价它给了旧价？配个本地脚本11秒拉到真价 →</a></li>
+            </ul>
+            <p><small>2026-11-13 | 三轮对照实测：裸问 AI 查行情 56~118 秒、三轮错一轮（TSM 差 30 美元 / 7.5%，给的是一个月前缓存价），本地 Google Finance 脚本注册成 MCP 后 11~29 秒全对、零 token · 附可直接抄的三步配置（脚本本体 / 代理 opener / mcp_config.json）和 4 行壳命令 · 通用原则：要实时数据别让 AI 现场找数据源，AI 给的数字必核来源和时间</small></p>
             <hr>
             <p><em>使用 project-researcher skill 自动生成</em></p>
 
